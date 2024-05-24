@@ -6,15 +6,6 @@
     gap: 64px;
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-}
-
-.logo h1 {
-    color: #fff;
-}
-
 .nav-list {
     display: flex;
     align-items: center;
@@ -72,7 +63,6 @@
 .mobile-menu {
     display: none;
 }
-
 
 @media screen and (max-width: 755px) {
     .nav-bar {
