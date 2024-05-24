@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/menu_mobile.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <!-- cabecalho -->
+    <header>
+        <nav class="nav-bar">
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="index.html" class="nav-link">
+                        <img src="/assets/home.svg" alt="">
+                        Home
+                    </a></li>
+                    <li class="nav-item"><a href="habilidades.html" class="nav-link">
+                        <img src="/assets/habilidades.svg" alt="">
+                        Habilidades
+                    </a></li>
+                    <li class="nav-item"><a href="projetos.html" class="nav-link ">
+                        <img src="/assets/projetos.svg" alt="">
+                        Projetos
+                    </a></li>
+                </ul>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="assets/menu_open.svg" alt="hamburguer"></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="index.html" class="nav-link">
+                    <img src="/assets/home.svg" alt="">
+                    Home
+                </a></li>
+                <li class="nav-item"><a href="habilidades.html" class="nav-link">
+                    <img src="/assets/habilidades.svg" alt="">
+                    Habilidades
+                </a></li>
+                <li class="nav-item"><a href="projetos.html" class="nav-link active">
+                    <img src="/assets/projetos.svg" alt="">
+                    Projetos
+                </a></li>
+            </ul>
+
+        </div>
+    </header>
+    <!-- cabecalho -->
+
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo__projeto">
+            <h1 class="apresentacao__conteudo__titulo">Meus <strong 
+            class="titulo-destaque">Projetos</strong></h1>
+            <p class="apresentacao__conteudo__texto__projeto">Olá! Sou o Gabriel! Vivamus urna nisi, lobortis ut euismod in, sollicitudin ac ipsum. Mauris a libero id velit pulvinar scelerisque at quis magna. Aliquam erat volutpat.</p>
+            <a class="apresentacao__links__projetos" href="https://github.com/gabrielsilva28" target="_blank">
+                <img src="./assets/img1.png">
+                
+            </a>
+            <a class="apresentacao__links__projetos" href="https://github.com/gabrielsilva28" target="_blank">
+                <img src="./assets/img2.png">
+                
+            </a>
+            <a class="apresentacao__links__projetos" href="https://github.com/gabrielsilva28" target="_blank">
+                <img src="./assets/img3.png">
+            </a>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <img class="rodape__imagem" src="./assets/logo_alura.svg" alt="Alura Include">
+        <p>Desenvolvido por Gabriel Silva.</p>
+    </footer>
+    
+    <script src="scripts/script.js"></script>
+    <script src="scripts/menu_mobile.js"></script>
+    
+</body>
+
+</html>
