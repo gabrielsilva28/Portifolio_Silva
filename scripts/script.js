@@ -14,24 +14,21 @@ function setActiveMenuItem() {
     }
 }
 
-// gerar footer
-// function adicionarRodape() {
-//     var footer = document.createElement("footer");
-//     footer.classList.add("rodape");
+//efeito de digitar
+const text = "Gabriel Silva";
+let index = 0;
 
-//     var imagem = document.createElement("img");
-//     imagem.classList.add("rodape__imagem");
-//     imagem.src = "./assets/logo_alura.svg";
-//     imagem.alt = "Alura Include";
-//     footer.appendChild(imagem);
+function type() {
+  document.getElementById("typing").textContent = text.slice(0, index++);
+  if (index <= text.length) {
+    setTimeout(type, 200);
+  }
+}
 
-//     var paragrafo = document.createElement("p");
-//     paragrafo.textContent = "Desenvolvido por Gabriel Silva.";
-//     footer.appendChild(paragrafo);
-
-//     document.body.appendChild(footer);
-// }
+setTimeout(function() {
+    document.getElementById("typing").style.borderRight = "none";
+  }, text.length * 400);
 
 
 setActiveMenuItem();
-//window.addEventListener("load", adicionarRodape);
+type();
