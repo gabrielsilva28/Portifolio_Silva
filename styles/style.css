@@ -196,12 +196,12 @@ body{
 }
 
 .apresentacao-item p{
-    text-decoration: none;
     color: var(--cor-secundaria);
     text-align: center;
     font-family: var(--fonte-primaria);
     font-weight: 100;
     font-size: 1rem;
+    text-decoration: none;
 }
 
 .rodape{
